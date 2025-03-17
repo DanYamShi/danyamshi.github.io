@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js" lang="en">
 <head>
 
    <!--- basic page needs
@@ -14,6 +12,7 @@
    <!-- mobile specific metas
    ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
  	<!-- CSS
    ================================================== -->
@@ -28,713 +27,666 @@
 
    <!-- favicons
 	================================================== -->
-	<link rel="icon" type="image/png" href="images/DANIEL.JPG">
-
+	<link rel="icon" type="image/png" href="images/PFP.JPG">
+	
 </head>
 
 <body id="top">
+
+	<!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
 	<!-- header
    ================================================== -->
    <header>
-   	<div class="row">
+	<div class="row">
 
-   		<div class="top-bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+		<div class="top-bar">
+			<a class="menu-toggle" href="#"><span>Menu</span></a>
 
-	   		<div class="logo">
-		         <a href="index.html">Daniel Shi</a>
-		      </div>
+			<div class="logo">
+			  <a href="index.html">Daniel</a>
+		   </div>
 
-		   	<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#Work" title="">Work Experience</a></li>
-						<li><a class="smoothscroll"  href="#Work" title="">Projects</a></li>
-						<li><a class="smoothscroll"  href="#MORE" title="">Education</a></li>
-						<li><a class="smoothscroll"  href="#MORE" title="">Contact Me</a></li>
-					</ul>
-				</nav>
-   		</div> <!-- /top-bar -->
+			<nav id="main-nav-wrap">
+				 <ul class="main-navigation">
+					 <li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+					 <li><a class="smoothscroll"  href="#about" title="">About</a></li>
+					 <li><a class="smoothscroll"  href="#resume" title="">Work Experience</a></li>
+					 <li><a class="smoothscroll"  href="#portfolio" title="">Projects</a></li>
+					 <li><a class="smoothscroll"  href="#education" title="">Education</a></li>
+					 <li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>
+				 </ul>
+			 </nav>
+		</div> <!-- /top-bar -->
 
-   	</div> <!-- /row -->
-   </header> <!-- /header -->
+	</div> <!-- /row -->
+</header> <!-- /header -->
 
-   
+	
 	<!-- intro section
-   ================================================== -->
-   <section id="intro">
+	================================================== -->
+	<section id="intro" class="s-intro target-section">
 
-   	<div class="intro-overlay"></div>
+		<div class="intro-overlay"></div>
 
-   	<div class="intro-content">
-   		<div class="row">
-   			<div class="col-twelve">
+		<div class="intro-content">
+			<div class="row">
+				<div class="col-twelve">
 
-	   			<h5>Hello, World.</h5>
-	   			<h1>I'm Daniel Shi.</h1>
+					<h5>Hello, World.</h5>
+					<h1>I'm Daniel Shi.</h1>
 
-	   			<p class="intro-position">
-	   				<span>Biomedical Engineer</span>
-	   				<span>Data Scientist</span>
-	   			</p>
+					<p class="intro-position">
+						<span>Biomedical Engineer</span>
+						<span>Data Scientist</span>
+					</p>
 
-	   			<a class="button stroke smoothscroll" href="#about" title="">Let's Connect</a>
+					<a class="button stroke smoothscroll" href="#about" title="">Let's Connect</a>
 
-	   		</div>
-   		</div>
-   	</div> <!-- /intro-content -->
-   </section> <!-- /intro -->
-
-
-   <!-- about section
-   ================================================== -->
-   <section id="about">
-
-   	<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>About</h5>
-
-   			<div class="intro-info">
-
-   				<img src="images/DANIEL.JPG" alt="Profile Picture">
-
-   				<p class="lead"> I am a Master of Translational Medicine (MTM) student with UC Berkeley
-					Bioengineering and UCSF Medicine. I enjoy problem-solving and hands-on projects.
-					I have 2.5 years of preclincal biomedical research, 1 year of data science, and 
-					1 year of R&D engineering experience. I am passionate about developing medical technology 
-					that enables patients to spend more time with their loved ones.</p>
-   			</div>
-   		</div>
-   	</div> <!-- /section-intro -->
-
-   	<div class="row about-content">
-   		<div class="col-six tab-full">
-
-   			<h3>Information</h3>
-
-   			<ul class="info-list">
-                <li>
-   					<strong>Email:</strong>
-   					<span>danielshi@berkeley.edu</span>
-   				</li>
-				   <li>
-					<strong>LinkedIn:</strong>
-					<span>linkedin.com/in/daniel-shi/</span>
-				</li>
-				<li>
-					<strong>Phone:</strong>
-					<span>650-278-7262</span>
-				</li>
-                <li>
-   					<strong>Address:</strong>
-   					<span>Berkeley, CA</span>
-   				</li>
-
-   			</ul> <!-- /info-list -->
-   		</div>
-
-   		<div class="col-six tab-full">
-
-   			<h3>COMPETENCES</h3>
-
-			   <ul class="info-list">
-                <li>
-   					<strong>Engineering</strong>
-   					<span>SolidWorks, AutoCAD, Fusion 360, Ansys Structural FEA, Ansys Fluent CFD, MS Project, DOE, 
-						Laser Cutting, 3D Printing, DFM, Arduino</span>
-   				</li>
-				   <li>
-					<strong>Programming</strong>
-					<span>ML/AI, NLP, Python, Pytorch, C#, C++, SQL, HTML/CSS, MATLAB, Simulink, VBA, LaTeX, Unity</span>
-				</li>
-				<li>
-					<strong>Data Science</strong>
-					<span>MS Power BI, MS Azure Databricks, MS Power Automate, Minitab, Alteryx, MS Office, SAP BI</span>
-				</li>
-				<li>
-					<strong>Medical Devices</strong>
-					<span>QMS, 21 CFR 820/ISO 13485, ISO 14971, IP, 510(K)/PMA, EHR, V&V, DHF, CAPA</span>
-				</li>
-
-				<!-- <ul class="skill-bars">
-				   <li>
-				   	<div class="progress percent90"><span>85%</span></div>
-				   	<strong>Python</strong>
-				   </li>
-				</ul> -->
-
-   		</div>
-   	</div>
-
-   	<div class="row button-section">
-   		<a href="https://github.com/danyamshi/danyamshi.github.io/raw/master/images/Resume_DanielShi.pdf" target="_blank" title="Download CV" class="button button-primary">View My Resume</a>
-   	</div>
-
-   </section> <!-- /about-->
-
-
-   <section id="experience" class="section scrollspy">
-	<h3 class="page-title white-text teal">Experience</h3>
-	<div class="container">
-
-	  <!-- Latest Experience -->
-	  <div class="card">
-		<div class="card-content">
-		  <div class="row">
-			<div class="col s12 m2">
-			  <a href="https://www.zhiffy.com/" target="_blank"><img alt="Zhiffy logo"
-				  src="/assets/img/exp-zhiffy-logo-1.webp" class="responsive-img center-block" /></a>
+				</div>
 			</div>
-			<!-- <div class="col s12 m10"> -->
-			<div class="col s12 m10">
-			  <p>
-				<span class="card-title"><a href="https://www.zhiffy.com/" target="_blank"
-					class="teal-text hoverline">Zhiffy</a></span>
-			  </p>
-			</div>
-		  </div>
-		  <div class="role brown-text text-darken-2">Software Engineer</div>
-		  <ul>
-			<li>
-			  Developed and managed the backend of an e-commerce platform using Flask, MongoDB, and AWS.
-			</li>
-			<li>
-			  Worked on three web applications targeting customers, selling vendors, and admin users; built 50+ RESTful APIs with functionalities
-such as login/sign up, view a product, add a product to cart, checkout the order, etc.
-			</li>
-			<li>Improved the response time by 20% by refactoring the codebase and changing database design and queries.</li>
-			<li>Added a bulk upload feature which reduced the manual work of adding products into a database.</li>
-			<li>
-			  <b>Tools:</b> Python, Flask, MongoDB
-			</li>
-		  </ul>
-		</div>
-		<div class="card-action">
-		  <span>July 2020 - Nov 2020 | Hyderabad, India</span>
-		</div>
-	  </div>
+		</div> <!-- /intro-content -->
+	</section> <!-- /intro -->
 
-	  
-	  <div class="card">
-		<div class="card-content">
-		  <div class="row">
-			<div class="col s12 m2">
-			  <a href="https://www.meditab.com" target="_blank"><img alt="Meditab logo"
-				  src="/assets/img/exp-meditab-logo-500x500.jpg" class="responsive-img center-block" /></a>
-			</div>
-			<!-- <div class="col s12 m10"> -->
-			<div class="col s12 m10">
-			  <p>
-				<span class="card-title"><a href="http://meditab.com" target="_blank"
-					class="teal-text hoverline">Meditab</a></span>
-			  </p>
-			</div>
-		  </div>
-		  <div class="role brown-text text-darken-2">Programmer Analyst</div>
-		  <ul>
-			<li>
-			  Customized a tree-based optimization algorithm that separates drugs into distinct groups to maximize the concurrent execution of drug
-dispenser robots; improved an optimization algorithm that reduced the cycle-time of the automation process by 25%.
-			</li>
-			<li>
-			  Devised a customized recursion algorithm to extend the functionality of the current environment to a multi-robot and multi-system
-environment
-			</li>
-			<li>
-			  Built a modular video analytics app using Flask, OpenCV that tracks the location of each human in a multi-camera environment;
-utilized perspective transformation, object detection, and object tracking to find the location of a human.
-			</li>
-			<li>Increased the speed of the video analytics app by 20% by using a customized YOLOv3 algorithm to perform object detection and
-			  DeepSORT algorithm for multi-object tracking.</li>
-			<li>
-			  <b>Tools:</b> Python, Flask, OpenCV, Keras, Tensorflow, PyTorch
-			</li>
-		  </ul>
-		</div>
-		<div class="card-action">
-		  <span>Dec 2018 - July 2019 | Ahmedabad, India</span>
-		</div>
-	  </div>
 
-	  <!-- Experience 2 -->
-	  <div class="card">
-		<div class="card-content">
-		  <div class="row">
-			<div class="col s12 m2">
-			  <img alt="Mtag logo" src="/assets/img/exp-mtag-logo-250x250.jpg" class="responsive-img center-block" />
-
-			</div>
-
-			<!-- <div class="col s12 m10"> -->
-			<div class="col s12 m10">
-			  <p>
-				<span class="card-title"><a href="#experience" class="teal-text hoverline">Mtag
-					Innovations</a></span>
-			  </p>
-			</div>
-		  </div>
-		  <div class="role brown-text text-darken-2">Software Developer</div>
-		  <ul>
-			<li>
-			  Programmed a cloud-based web app using Flask and JavaScript aimed at storing, visualizing, and tracking temperature and humidity
-of each drug container to estimate the degradation of the drug.
-			</li>
-			<li>
-			  Created an alert system to send notifications and emails when the parameters exceed the threshold.
-			</li>
-			<li>
-			  <b>Tools:</b> Python, Flask, JavaScript
-			</li>
-		  </ul>
-		</div>
-		<div class="card-action">
-		  <span>July 2018 - Nov 2018 | Ahmedabad, India</span>
-		</div>
-	  </div>
-
-	  <!-- Experience 3 -->
-	  <div class="card">
-		<div class="card-content">
-		  <div class="row">
-			<div class="col s12 m2">
-			  <a href="https://www.cignex.com" target="_blank"><img alt="Cignex logo"
-				  src="/assets/img/exp-cignex-logo.png" class="responsive-img center-block" /></a>
-			</div>
-			<div class="col s12 m10">
-			  <p>
-				<span class="card-title"><a href="https://www.cignex.com" target="_blank"
-					class="teal-text hoverline">CIGNEX
-					Datamatics </a></span>
-			  </p>
-			</div>
-		  </div>
-		  <div class="role brown-text text-darken-2">Project Trainee</div>
-		  <ul>
-			<li>
-			  Designed a library management system for a local library, where we undertook activities like requirement
-			  elicitation, preparing Data Flow
-			  and Entity-Relationship diagrams.
-			</li>
-			<li>
-			  Delivered a solution for a POC involving Automatic Financial Document Classifier using Natural Language
-			  Processing and Support Vector
-			  Machines with 96% accuracy on the company’s data.
-			</li>
-			<li>
-			  <b>Tools:</b> Python, Scikit-learn, NLTK
-			</li>
-		  </ul>
-		</div>
-		<div class="card-action">
-		  <span>June 2017 - July 2017 | Ahmedabad, India</span>
-		</div>
-	  </div>
-
-	</div>
-  </section>
-
-   <!-- work section
-   ================================================== -->
-	<section id="Work" class="grey-section">
-
-   	<div class="row resume-timeline">
-
-   		<div class="col-twelve resume-header">
-
-   			<h2>WORK EXPERIENCE</h2>
-
-   		</div> <!-- /resume-header -->
-
-   		<div class="col-twelve">
-
-   			<div class="timeline-wrap">
-
-   				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>COMUS | France - Déploiement réseau – 2015</h3>
-	   					<p>Déploiement et mise en service des équipements radio et
-transmission du réseau Bouygues Télécom en Ile-deFrance.
-</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Al Furat Petroleum Company | Syrie - Ingénieur Télécom –
-2010 / 2013</h4>
-	   					<p>Déploiement et mise en service des équipements radio et
-transmission (Sagem)
-§ Configuration de routeurs Cisco .</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Intracom | Syrie – Gestionnaire d e s i t e d e
-télécommunications 2008 / 2010</h3>
-	   					<p>Déploiement du projet de réseau point-à-multipont</p>
-	   				</div>
-
-
-
-	   			</div> <!-- /timeline-block -->
-
-
-   			</div> <!-- /timeline-wrap -->
-
-   		</div> <!-- /col-twelve -->
-
-   	</div> <!-- /resume-timeline -->
-
-   	<div class="row resume-timeline">
-
-   		<div class="col-twelve resume-header">
-
-   			<h2>FORMATION ET DIPLOMES</h2>
-
-   		</div> <!-- /resume-header -->
-
-   		<div class="col-twelve">
-
-   			<div class="timeline-wrap">
-
-   				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Simplon.co – Montreuil </h3>
-	   					<p>2016 (7 mois)- Present</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-
-	   					<p>Formation intensive au développement Web (HTML, CSS,
-JS, PHP, Symfony)
-> Animation d’ateliers d’initiation à la programmation à
-destination des enfants et des adultes (Minecraft, Code
-n’Slash, Scratch)
-> Participation au Hackathons # RATP.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Microsoft Certified – Microsoft Certified IT Professional
-(MCITP) </h3>
-	   					<p>Syrie | 2013</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<p>Certification Cisco Microsoft : administrateur de bases de
-données .</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Université de Damas - Diplôme d’ingénieur</h3>
-	   					<p>Syrie | 2008</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-
-	   					<p>Ingénieur Génie Electrique, option: génie électrique et de
-communication.</p>
-	   				</div>
-	   				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Cisco Courses – Cisco Certified Network Associate Level
-(CCNA) New Horizon</h3>
-	   					<p>Syrie | 2007</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-
-	   					<p>Certification Cisco CCNA Routing and Switching :
-technicien réseau .</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-   			</div> <!-- /timeline-wrap -->
-
-   		</div> <!-- /col-twelve -->
-
-   	</div> <!-- /resume-timeline -->
-
-	</section> <!-- /features -->
-
-
-	<!-- Portfolio Section
-   ================================================== -->
-
-
-
-	<!-- CTA Section
-   ================================================== -->
-
-
-	<!-- services Section
-   ================================================== -->
-	<section id="MORE">
-
-		<div class="overlay"></div>
+	<!-- about section
+	================================================== -->
+	<section id="about">
 
 		<div class="row section-intro">
-   		<div class="col-twelve">
+			<div class="col-twelve">
 
-   			<h5>MORE</h5>
+				<h5>About</h5>
 
+				<div class="intro-info">
 
+					<img src="images/PFP.JPG" alt="Profile Picture">
 
+					<p class="lead"> I am a Master of Translational Medicine (MTM) student with UC Berkeley
+						Bioengineering and UCSF Medicine. I enjoy problem-solving and hands-on projects.
+						I have 2.5 years of preclincal biomedical research, 1 year of data science, and 
+						1 year of R&D engineering experience. I am passionate about developing medical technology 
+						that enables patients to spend more time with their loved ones.</p>
+				</div>
+			</div>
+		</div> <!-- /section-intro -->
 
-   		</div>
-   	</div> <!-- /section-intro -->
+		<div class="row about-content">
+			<div class="col-six tab-full">
 
-   	<div class="row services-content">
+				<h3>Information</h3>
 
-   		<div id="owl-slider" class="owl-carousel services-list">
+				<ul class="info-list">
+					<li>
+						<strong>Email:</strong>
+						<span>danielshi@berkeley.edu</span>
+					</li>
+					<li>
+						<strong>LinkedIn:</strong>
+						<span>linkedin.com/in/daniel-shi/</span>
+					</li>
+					<li>
+						<strong>Phone:</strong>
+						<span>650-278-7262</span>
+					</li>
+					<li>
+						<strong>Address:</strong>
+						<span>Berkeley, CA, United States</span>
+					</li>
 
-   			<div class="service">
+				</ul> <!-- /info-list -->
+			</div>
 
-			   	<span class="icon"><i class="icon-window"></i></span>
+			<div class="col-six tab-full">
 
-	            <div class="service-content">
+				<h3>COMPETENCES</h3>
 
-	            	<h3>SYSTEMES ET BASE DE DONNEES</h3>
+				<ul class="info-list">
+					<li>
+						<strong>Engineering</strong>
+						<span>SolidWorks, AutoCAD, Fusion 360, Ansys Structural FEA, Ansys Fluent CFD, MS Project, DOE, 
+							Laser Cutting, 3D Printing, DFM, Arduino</span>
+					</li>
+					<li>
+						<strong>Programming</strong>
+						<span>ML/AI, NLP, Python, Pytorch, C#, C++, SQL, HTML/CSS, MATLAB, Simulink, VBA, LaTeX, Unity</span>
+					</li>
+					<li>
+						<strong>Data Science</strong>
+						<span>MS Power BI, MS Azure Databricks, MS Power Automate, Minitab, Alteryx, MS Office, SAP BI</span>
+					</li>
+					<li>
+						<strong>Medical Devices</strong>
+						<span>QMS, 21 CFR 820/ISO 13485, ISO 14971, IP, 510(K)/PMA, EHR, V&V, DHF, CAPA</span>
+					</li>
 
-		            <p class="desc"># Windows # Ubuntu
-# MySQL </br># Firebase.
-	        			</p>
+					<!-- <ul class="skill-bars">
+					<li>
+						<div class="progress percent90"><span>85%</span></div>
+						<strong>Python</strong>
+					</li>
+					</ul> -->
 
-	            </div>
+			</div>
+		</div>
 
-			   </div> <!-- /service --><div class="service">
+		<div class="row button-section">
+			<a href="https://github.com/DanYamShi/danyamshi.github.io/blob/main/images/Resume_Daniel%20Shi.pdf" target="_blank" title="Download CV" class="button button-primary">View My Resume</a>
+		</div>
 
-					<span class="icon"><i class="icon-earth"></i></span>
-
-	            <div class="service-content">
-
-	            	<h3>LANGUES</h3>
-
-		            <ul class="skill-bars">
-				   <li>
-				   	<div class="progress percent100"><span>100%</span></div>
-				   	<strong>ARABE</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
-				   	<strong>ANGLAIS</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent70"><span>70%</span></div>
-				   	<strong>FRANcAIS</strong>
-				   </li>
-				   </ul>
-
-	            </div>
-	            </div> <!-- /services-list -->
-
-	      	<div class="service">
-
-	      		<span class="icon"><i class="icon-chat"></i></span>
-
-	            <div class="service-content">
-
-	            	 <h3>Personnalité</h3>
-
-		            <p class="desc"> Personnalité : # sérieux # dynamique # organisé
-# travail en équipe .
-	         		</p>
-
-	         	</div>
-
-				</div> <!-- /service -->
-
-				<div class="service">
-
-					<span class="icon"><i class="icon-window"></i></span>
-
-	            <div class="service-content">
-
-	            	<h3>Centres d’intérêts</h3>
-
-		            <p class="desc">Centres d’intérêts : # cinéma d’action # poésie classique #
-randonnée.
-	         		</p>
-
-	            </div>
-
-			   </div> <!-- /service -->
+	</section> <!-- /about-->
 
 
-
-   	</div> <!-- /services-content -->
-
-	</section> <!-- /services -->
-
-
-	<!-- stats Section
+	<!-- experience section
    ================================================== -->
+   <section id="resume" class="grey-section">
+
+	<div class="row section-intro">
+	   <div class="col-twelve">
+		   <h5>Featured Work Experience</h5>
+	   </div>   		
+   </div> <!-- /section-intro--> 
+
+   <div class="row resume-timeline">
+	   <div class="col-twelve">
+		   <div class="timeline-wrap">
+
+			   <div class="timeline-block">
+				   <div class="timeline-ico">
+						<img src="images/Company_Logos/work_HS.png" alt="HydroShield Logo">
+				   </div>
+				   <div class="timeline-header">
+					   <h3>R&D Engineer I</h3>
+					   <p>August 2024 - Present</p>
+				   </div>
+				   <div class="timeline-content">
+					   <h4>HydroShield</h4>
+					   <p>Invented a motorized hydrogel injector to minimize off-target damage during thermal tumor ablation. Applied mechatronics and actuator control while ensuring compliance with QMSR (21 CFR 820/ISO 13485) for V&V studies and imminent Class II 510(k) submission.</p>
+				   </div>
+			   </div> <!-- /timeline-block -->
+
+			   <div class="timeline-block">
+				   <div class="timeline-ico">
+					<img src="images/Company_Logos/work_Berk.png" alt="UC Berkeley Logo">
+				   </div>
+				   <div class="timeline-header">
+					   <h3>Graduate Student Instructor</h3>
+					   <p>August 2024 - Present</p>
+				   </div>
+				   <div class="timeline-content">
+					   <h4>UC Berkeley</h4>
+					   <p>Taught over 200 students in MCB 32: "Human Physiology" and NEU C61: "Brain, Mind, and Behavior" three times a week, delivering lectures and facilitating exams. Teaching evaluations were 8% above the departmental average for clarity and effectiveness.</p>
+				   </div>
+			   </div> <!-- /timeline-block -->
+			
+			   <div class="timeline-block">
+					<div class="timeline-ico">
+						<img src="images/Company_Logos/work_JJ.png" alt="J&J Logo">
+					</div>
+					<div class="timeline-header">
+						<h3>Digital Transformation Specialist</h3>
+						<p>May 2023 - July 2024</p>
+					</div>
+					<div class="timeline-content">
+						<h4>Johnson & Johnson</h4>
+						<p>Automated SAP BI order processing using Python, SQL, and Azure Databricks, reducing manual steps by 20%. Developed 8 Power BI dashboards to enable real-time tracking of SAP/Salesforce KPIs. Supported SAP S/4HANA workflow improvements and global deployment through Agile sprints.</p>
+					</div>
+				</div> <!-- /timeline-block -->
+
+				<div class="timeline-block">
+					<div class="timeline-ico">
+						<img src="images/Company_Logos/work_ETH.png" alt="ETH Zurich Logo">
+					</div>
+					<div class="timeline-header">
+						<h3>Exchange Researcher, Artificial Heart</h3>
+						<p>May 2020 - August 2020</p>
+					</div>
+					<div class="timeline-content">
+						<h4>ETH Zurich</h4>
+						<p>Designed and simulated 40 ventricular geometries for an artificial heart prototype using Taguchi DOE in SpaceClaim/SolidWorks, analyzing cyclic Von Mises stresses and blood stagnation in Ansys as part of an international team of six researchers.</p>
+					</div>
+				</div> <!-- /timeline-block -->
+
+		   </div> <!-- /timeline-wrap -->   			
+	   </div> <!-- /col-twelve -->
+   </div> <!-- /experience-timeline -->
+</section> <!-- /experience -->
 
 
-   <!-- contact
-   ================================================== -->
-	<section id="contact">
+<!-- projects section
+================================================== -->
+<section id="portfolio">
+	<div class="row section-intro">
+	   <div class="col-twelve">
 
-		<div class="row section-intro">
-   		<div class="col-twelve">
+		   <h5>Featured Projects</h5>
+		   <h1>Coursework, Research, and Hobbies. Click for Details.</h1>
 
-   			<h5>Contact</h5>
-   			<h1>N'hésitez pas à me contacter.</h1>
+	   </div>   		
+   </div> <!-- /section-intro--> 
+
+   <div class="row portfolio-content">
+	   <div class="col-twelve">
+
+		   <!-- portfolio-wrapper -->
+		 <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+			<div class="bgrid folio-item">
+			   	<div class="item-wrap">
+					<img src="images/Projects/Z1-1.jpeg" alt="Medical Device Shell">
+					<a href="#modal-01" class="overlay">	                  	           
+					   <div class="folio-item-table">
+						  <div class="folio-item-cell">
+							  <h3 class="folio-title">HydroShield Injector</h3>	     					    
+							  <span class="folio-types">Arduino, C++, Fusion 360, Prototyping, FDA</span>
+							</div>	                      	
+					 	</div>                    
+				  	</a>
+			   </div>	               
+			</div> <!-- /folio-item -->
+
+			<div class="bgrid folio-item">
+				<div class="item-wrap">
+					<img src="images/Projects/Z2-1.jpg" alt="Artifical Heart">
+					<a href="#modal-02" class="overlay">	                  	           
+					   <div class="folio-item-table">
+						  <div class="folio-item-cell">
+							  <h3 class="folio-title">Zurich Artificial Heart</h3>	     					    
+							  <span class="folio-types">SolidWorks, Ansys, Minitab, Materials, Supplier Quality</span>
+						 </div>	                      	
+					  </div>                    
+				   </a>
+			</div>	               
+		 </div> <!-- /folio-item -->
+
+		<div class="bgrid folio-item">
+			<div class="item-wrap">
+			<img src="images/Projects/Z3-1.png" alt="Financial Dashboard">
+			   <a href="#modal-03" class="overlay">	                  	           
+				  <div class="folio-item-table">
+					 <div class="folio-item-cell">
+						 <h3 class="folio-title">Data Science Basis</h3>	     					    
+						 <span class="folio-types">Power BI, Azure Databricks, VBA, SQL, Python</span>
+					 </div>	                      	
+				  </div>                    
+			   </a>
+			</div>	               
+	 	</div> <!-- /folio-item -->
+
+		<div class="bgrid folio-item">
+			<div class="item-wrap">
+			<img src="images/Projects/Z4-1.png" alt="Reactor Visual">
+			   <a href="#modal-04" class="overlay">	                  	           
+				  <div class="folio-item-table">
+					 <div class="folio-item-cell">
+						 <h3 class="folio-title">Chemical Plant Capstone</h3>	     					    
+						 <span class="folio-types">SolidWorks, Aspen Plus, Process Design, Risk Management, ChemEng</span>
+					 </div>	                      	
+				  </div>                    
+			   </a>
+			</div>	               
+	 	</div> <!-- /folio-item -->  
+
+		<div class="bgrid folio-item">
+			<div class="item-wrap">
+			<img src="images/Projects/Z5-1.png" alt="Tale of Two Siblings">
+			   <a href="#modal-05" class="overlay">	                  	           
+				  <div class="folio-item-table">
+					 <div class="folio-item-cell">
+						 <h3 class="folio-title">Unity Game Development</h3>	     					    
+						 <span class="folio-types">C#, Blender Design, Graphics Design</span>
+					 </div>	                      	
+				  </div>                    
+			   </a>
+			</div>	               
+	 	</div> <!-- /folio-item -->
+
+		<div class="bgrid folio-item">
+			<div class="item-wrap">
+			<img src="images/Projects/Z6-1.png" alt="Pokemon Fight">
+				<a href="#modal-06" class="overlay">              		                  
+				<div class="folio-item-table">
+					<div class="folio-item-cell">
+						<h3 class="folio-title">Python Game Development</h3>	     					    
+						<span class="folio-types">
+							Python, Algorithm Optimization
+						</span>		     		
+					</div>	                      	
+				</div>                    
+				</a>
+			</div>
+		</div> <!-- /folio-item -->   
+
+			<!-- modal popups - begin
+			============================================================= -->
+			<div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				   <div class="description-box">
+						<h4>HydroShield Injector</h4>		      
+						<p>Every year, there are ~297k new breast cancer diagnoses in the US,
+							with 60% undergoing surgery. Percutaneous thermal ablation can destroy malignant tumors
+							minimally-invasively with heat/cold. However, its application is limited: ablating too 
+							long risks sensistive tissue off-target damage; ablation too short risks tumor recurrence.
+							
+							HydroShield has developed a viscous hydrogel to protect off-target tissues during breast tumor thermal
+							ablation that also reduces operating time. I am designing an injector medical device to output
+							the gel at a controlled rate, in a sterile and ergonomic manner, while remaining affordable.</p>
+				   
+						<h5>Arduino Electronics Prototyping</h5>
+						<div class="media">
+							<img src="images/Projects/Z1-2.jpeg" alt="">
+						</div>  
+							
+						<h5>Fusion 360 Model</h5>
+						<div class="media">
+							<img src="images/Projects/Z1-3.png" alt="">
+						</div>  
+
+						<h5>Midterm Poster Presentation</h5>
+						<div class="media">
+							<img src="images/Projects/Z1-4.png" alt="">
+						</div>  
+					</div>	
+
+				 <div class="link-box">
+					  <a href="#" class="popup-modal-dismiss">Close</a>
+				 </div>		      
+			</div> <!-- /modal-01 -->
+
+			   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+					<div class="description-box">
+						<h4>Zurich Artificial Heart</h4>		      
+						<p>Heart failure (HF) affects over 23 million people globally, with 90% mortality after 10 years 
+							Suitable heart donors are rare and ex-vivo/synthetic options are only bridges-to-transplantation. 
+							Total artificial hearts (TAH) have also historically been limited by size 
+							and pneumatic drivelines. I helped develop a fully-implantable soft TAH using a hydraulically-actuated 
+							corrugated diaphragm to replicate pulsatile flow. FEA and CFD evaluated diaphragm parameters' 
+							impact on deformation, von-Mises stress, and volume displacement. Biomaterials were also selected to 
+							improve actuation and enhance durability for future first-in-human trials.</p>
+				
+						<h5>Ansys Global Diaphragm Deformation</h5>
+						<div class="media">
+							<img src="images/Projects/Z2-2.png" alt="">
+						</div>  
+							
+						<h5>Ansys Cross-Section Deformation</h5>
+						<div class="media">
+							<img src="images/Projects/Z2-3.png" alt="">
+						</div>  
+					</div>	
+
+					<div class="link-box">
+						<a href="#" class="popup-modal-dismiss">Close</a>
+					</div>
+			   </div> <!-- /modal-02 -->
+
+			   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+					<div class="description-box">
+						<h4>Data Science Basis</h4>		      
+						<p>Over my employment with Johnson & Johnson, I became adept with developing data visualization and analysis
+							tools to support pharmaceutical pharmaceutical needs. This provided the basis for my data science background,
+							working daily with Power BI, managing SQL databases with Databricks, and developing scripts in VBA and Python. 
+							I have since applied my skills to develop tools relevant to my personal needs. The cover page displays a 
+							dashboard I created for my financial management, and the below impages a VBA script for comparing two Excel
+							tables based on column keys.</p>
+				
+						<h5>Declassified Power BI Supply Chain Dashboard</h5>
+						<div class="media">
+							<img src="images/Projects/Z3-2.png" alt="">
+						</div>  
+							
+						<h5>Table Comparer VBA Script</h5>
+						<div class="media">
+							<img src="images/Projects/Z3-3.png" alt="">
+						</div>  
+					</div>	
+			   </div> <!-- /modal-03 -->
+
+			   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+					<div class="description-box">
+						<h4>Chemical Plant Capstone</h4>		      
+						<p>Hatch Inc., an Toronto engineering consulting company, sponsored my bachelor's capstone. 
+							With ining, battery and electric vehicle production increasing exponentially, the company was
+							interested in demonstrating battery-grade lithium carbonate (Li2CO3) production feasibility from concentrate 
+							extracted from hard-rock spodumene (80-96% wt Li2CO3) in Southern Ontario. My capstone team and I designed 
+							a pilot plant capable of producing 750 kg/day of battery-grade Li2CO3. The plant was to be fully assembled and operated 
+							within standard 40 ft ISO shipping containers, making it highly portable and compact for tradeshows.</p>
+				
+						<h5>AutoCAD P&ID for Reactor</h5>
+						<div class="media">
+							<img src="images/Projects/Z4-2.png" alt="">
+						</div>  
+							
+						<h5>SolidWorks Plant Layout Model</h5>
+						<div class="media">
+							<img src="images/Projects/Z4-3.png" alt="">
+						</div>  
+
+						<h5>Final Poster Presentation</h5>
+						<div class="media">
+							<img src="images/Projects/Z4-4.png" alt="">
+						</div>  
+					</div>	
+			   </div> <!-- /modal-04 -->
+
+			   <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+					<div class="description-box">
+						<h4>Unity Game Development</h4>		      
+						<p>My extracurricular interests include coding, CAD, music, art, and gaming. 
+							Unity game development combines all of these together. I wrote C# scripts to enable
+							functionality (i.e., movement), used CAD and UV skins in Blender to create assets,
+							and I am currently looking into composing music. While the purpose is strictly for my
+							enjoyment, it demonstrates my ability to combine my technical knowledge to produce outputs
+							like my first shipped game, A Tale of Two Siblings (2024), available on my repo. I am
+							developing a more realistic game currently, with screenshots below.</p>
+
+						<h5>A Tale of Two Siblings Screenshot</h5>
+						<div class="media">
+							<img src="images/Projects/Z5-2.png" alt="">
+						</div>  
+							
+						<h5>Unamed Game Screenshot</h5>
+						<div class="media">
+							<img src="images/Projects/Z5-3.png" alt="">
+						</div>  
+
+						<h5>Unity Game Engine Interface</h5>
+						<div class="media">
+							<img src="images/Projects/Z5-4.png" alt="">
+						</div>  
+					</div>
+			   </div> <!-- /modal-05 -->
+
+			   <div id="modal-06" class="popup-modal slider mfp-hide">	
+
+				<div class="description-box">
+					<h4>Python Game Development</h4>		      
+					<p>I first learned Python in 2018 when I assisted a professor with coding a program that
+						deciphered 3D hand coordinates and translated ASL into English. I learned that I enjoyed
+						using logic to solve problems and programming. To improve my skills and kill time, I started
+						recreating games from scratch, starting with Connect Four, moving to Battleship, and finally
+						to Pokemon. These provided the foundations for my programming skill and algorithmic approach
+						to every problem I have encountered in industry. I am now able to leverage Python to complete
+						computer vision, NLP, and signals processing tasks as part of Theranova. </p>
+
+					<h5>Pokemon Screenshot</h5>
+					<div class="media">
+						<img src="images/Projects/Z6-2.png" alt="">
+					</div>  
+						
+					<h5>Battleship Screenshot</h5>
+					<div class="media">
+						<img src="images/Projects/Z6-3.png" alt="">
+					</div>  
+
+					<h5>Connect Four Screenshot</h5>
+					<div class="media">
+						<img src="images/Projects/Z6-4.png" alt="">
+					</div>  
+				</div>
+			   </div> <!-- /modal-06 -->
+
+		 </div> <!-- /portfolio-wrapper -->
+	   </div>  <!-- /twelve -->   
+   </div> <!-- /portfolio-content --> 
+</section> <!-- /portfolio --> 
 
 
+<!-- education section
+================================================== -->
+<section id="education" class="grey-section">
 
-   		</div>
-   	</div> <!-- /section-intro -->
+	<div class="row section-intro">
+		<div class="col-twelve">
+			<h5>Education</h5>
+		</div>   		
+	</div> <!-- /section-intro--> 
 
-   	<div class="row contact-form">
+	<div class="row education-content">
+		<div class="education-block">
+			<h3>Master of Translational Medicine</h3>
+			<span class="education-date">2024 - 2025</span>
+			<h4>UC Berkeley & UCSF</h4>
+			<ul>
+				<li>
+					GPA 3.97/4.00
+				</li>
+				<li>
+					Graduate Student Instructor, Graduate Assembly Representative, Vice-Chancellor Advisor
+				</li>
+			</ul>
+		</div>
+		<!-- End .education-block -->
 
-   		<div class="col-twelve">
-
-            <!-- form -->
-            <form id="contactform" action="//formspree.io/m.aboualnasser@gmail.com" method="POST">
-
-      <input type="text" name="name" placeholder="Votre Nome">
-      <input type="email" name="_replyto" placeholder="Votre Mail">
-      <textarea name="message" placeholder="Votre Message"></textarea>
-      <input type="submit" value="Envoyez">
-  </form>
- 						    <!-- Form End -->
-
-            <!-- contact-warning -->
-            <div id="message-warning">
-            </div>
-            <!-- contact-success -->
-      		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-      		</div>
-
-         </div> <!-- /col-twelve -->
-
-   	</div> <!-- /contact-form -->
-
-   	<div class="row contact-info">
-
-   		<div class="col-four tab-full">
-
-   			<div class="icon">
-   				<i class="icon-pin"></i>
-   			</div>
-
-   			<h5>Pour me contacter</h5>
-
-   			<p>
-           2 rue barbes<br>
-            92120<br>
-            Montrouge
-            </p>
-
-   		</div>
-
-   		<div class="col-four tab-full collapse">
-
-   			<div class="icon">
-   				<i class="icon-mail"></i>
-   			</div>
-
-   			<h5>Envoyez-moi un e-mail</h5>
-
-   			<p>m.aboualnasser@gmail.com
+		<div class="education-block">
+			<h3>B.A.Sc in Chemical Engineering</h3>
+			<span class="education-date">2018 - 2023</span>
+			<h4>University of Toronto</h4>
+			<ul>
+				<li>
+					GPA 3.86/4.00
+				</li>
+				<li>
+					Minor in Bioengineering, Certificate in Engineering Business
+				</li>
+				<li>
+					Third Year Representative, Badminton Club President, Orientation Leader
+				</li>
+			</ul>
+		</div> <!-- End .education-block --> 	
+	</div> <!-- /education-content -->
+</section> <!-- /education --> 
 
 
-			   </p>
+<!-- contact
+================================================== -->
+<section id="contact">
 
-   		</div>
+	<div class="row section-intro">
+	   <div class="col-twelve">
 
-   		<div class="col-four tab-full">
+		   <h5>Contact</h5>
+		   <h1>Let's Stay Connected.</h1>
+	   </div> 
+   </div> <!-- /section-intro -->
 
-   			<div class="icon">
-   				<i class="icon-phone"></i>
-   			</div>
+   <div class="row contact-form">
 
-   			<h5>Call Me At</h5>
+	   <div class="col-twelve">
 
-   			<p>Phone:
-			   	+ 33 6 27 76 01 44<br>
+		<!-- form -->
+		<form name="contactForm" id="contactForm" method="post" action="">
+			  <fieldset>
 
-			   </p>
+			  <div class="form-field">
+						<input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+			  </div>
+			  <div class="form-field">
+					 <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+			   </div>
+			  <div class="form-field">
+						<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+			   </div>                       
+			  <div class="form-field">
+					 <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+			   </div>                      
+			 <div class="form-field">
+				 <button class="submitform">Submit</button>
+				 <div id="submit-loader">
+					<div class="text-loader">Sending...</div>                             
+						 <div class="s-loader">
+								  <div class="bounce1"></div>
+								  <div class="bounce2"></div>
+								  <div class="bounce3"></div>
+							</div>
+						</div>
+			  </div>
 
-   		</div>
+			  </fieldset>
+		  </form> <!-- Form End -->
 
-   	</div> <!-- /contact-info -->
+		<!-- contact-warning -->
+		<div id="message-warning">            	
+		</div>            
+		<!-- contact-success -->
+		  <div id="message-success">
+		   <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+		  </div>
 
-	</section> <!-- /contact -->
+	 </div> <!-- /col-twelve -->
+	   
+   </div> <!-- /contact-form -->
 
+   <div class="row contact-info">
 
-   <!-- footer
-   ================================================== -->
+	   <div class="col-four tab-full">
 
-   <footer>
-     	<div class="row">
-        <div class="col-six tab-full pull-right social">
+		   <div class="icon">
+			   <i class="icon-pin"></i>
+		   </div>
 
-             			<ul class="footer-social">
-        			      
-        			      <li><a target="_blank"href="https://twitter.com/MOHAMADABOUALNA"><i class="fa fa-twitter"></i></a></li>
-        			      <li><a target="_blank"href="https://github.com/aboualnaser"><i class="fa fa-github" aria-hidden="true"></i>
-</a></li>
-        			   </ul>
+		   <h5>Where to find me</h5>
 
-        	      </div>
+		   <p>Berkeley, but open to relocate.</p>
+	   </div>
 
-	      	<div id="go-top">
-		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-		      </div>
+	   <div class="col-four tab-full collapse">
 
-      	</div> <!-- /row -->
-   </footer>
+		   <div class="icon">
+			   <i class="icon-mail"></i>
+		   </div>
 
-   <div id="preloader">
-    	<div id="loader"></div>
-   </div>
+		   <h5>Email Me At</h5>
+		   <p>danielshi@berkeley.edu</p>
+	   </div>
 
-   <!-- Java Script
-   ================================================== -->
-   <script src="js/jquery-2.1.3.min.js"></script>
-   <script src="js/plugins.js"></script>
-   <script src="js/main.js"></script>
+	   <div class="col-four tab-full">
+
+		   <div class="icon">
+			   <i class="icon-phone"></i>
+		   </div>
+
+		   <h5>Call Me At</h5>
+		   <p>650-278-7262</p>
+	   </div>
+	   
+   </div> <!-- /contact-info -->
+	
+</section> <!-- /contact -->
+
+<!-- Java Script
+================================================== --> 
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 
