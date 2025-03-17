@@ -78,10 +78,6 @@ body {
 	color: #6e6e6e;
 }
 
-/**
- * links - (_document-setup.scss)
- * -------------------------------------------------------------------
- */
 a, a:visited {
 	color: #000000;
 	-moz-transition: all 0.3s ease-in-out;
@@ -1465,6 +1461,7 @@ header .logo a {
 	}
 	.intro-content h5 {
 		font-size: 1.5rem;
+		margin-top: 2rem;
 		margin-bottom: .3rem;
 		letter-spacing: .2rem;
 	}
@@ -1497,11 +1494,10 @@ header .logo a {
 #about .section-intro {
 	margin-bottom: 3rem;
 }
-
 .intro-info {
 	margin-top: 4.2rem;
 	margin-right: -30px;
-	margin-left: -30px
+	margin-left: -30px;
 }
 .intro-info img {
 	height: 20rem;
@@ -1509,14 +1505,13 @@ header .logo a {
 	border-radius: 100%;
 	margin: 0rem 5 0 50;
 	float: left;
-	margin-right: 30px;
+	margin-right: 20px;
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 15rem;
+	padding-left: 0rem;
 	color: black;
 }
-
 .about-content {
 	position: relative;
 	text-align: left;
@@ -1610,6 +1605,7 @@ header .logo a {
 		width: 6.6rem;
 		float: none;
 		display: inline-block;
+		margin-left: 1.5rem;
 	}
 	.intro-info .lead {
 		padding-left: 0;
@@ -2065,26 +2061,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#cta {
-	padding-top: 10.2rem;
-	padding-bottom: 9rem;
-	text-align: center;
-}
-#cta p.lead {
-	color: #6e6e6e;
-}
-.cta-content {
-	max-width: 640px;
-}
-.cta-thumb {
-	display: inline-block;
-	margin-bottom: 1.2rem;
-}
-.cta-thumb img {
-	height: 7.8rem;
-	width: 7.8rem;
-	border-radius: 50%;
-}
+
 
 /**
  * section ads - (_layout.scss)
@@ -2110,20 +2087,6 @@ header .logo a {
 }
 .section-ads span {
 	color: #3F0D39;
-}
-
-/**
- * responsive:
- * cta
- * -------------------------------------------------------------------
- */
-@media only screen and (max-width:650px) {
-	.cta-content {
-		max-width: 650px;
-	}
-	.cta-content h2 {
-		font-size: 2.4rem;
-	}
 }
 
 
@@ -2674,12 +2637,10 @@ footer .copyright span:last-child::after {
 	margin: 0;
 	color: #000000
 }
-
 .education-block span {
 	color: #888888;
 	float: right
 }
-
 .education-block h4 {
 	color: #888888;
 	clear: both;
@@ -2692,7 +2653,6 @@ footer .copyright span:last-child::after {
 	color: #000000;
 	font-size: 0.9em
 }
-
 .education-block ul {
 	padding: 0 0 0 15px
 }
