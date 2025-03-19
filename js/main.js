@@ -185,7 +185,7 @@
 			$.ajax({      	
 
 		      type: "POST",
-		      url: "inc/sendEmail.php",
+		      url: "php/sendEmail.php",
 		      data: $(form).serialize(),
 		      beforeSend: function() { 
 
@@ -209,8 +209,9 @@
 	            }
 
 		      },
-		      error: function() {
-
+		      error: function(jqXHR, textStatus, errorThrown) {
+				$("#errorDiv").html("Error: " + textStatus + " - " + errorThrown);
+				console.log(form);
 		      	sLoader.fadeOut(); 
 		      	$('#message-warning').html("Something went wrong. Please try again or email me directly.");
 		         $('#message-warning').fadeIn();

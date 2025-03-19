@@ -50,8 +50,12 @@
 html {
 	font-size: 10px;
 }
-
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:2560px) {
+	html {
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width:2000px) {
 	html {
 		font-size: 9.411764705882353px;
 	}
@@ -388,7 +392,12 @@ img.pull-left {
  * -------------------------------------------------------------------
  */
 .bgrid {
-	padding: 0 20px;
+	padding: 0 30px;
+}
+@media only screen and (max-width:2560px) {
+	.bgrid {
+		padding: 0 25px;
+	}
 }
 @media only screen and (max-width:1024px) {
 	.bgrid {
@@ -1022,7 +1031,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #7d7d7d;
 }
 .section-intro {
-	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -1049,7 +1057,23 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * common styles
  * -------------------------------------------------------------------
  */
-@media only screen and (max-width:768px) {
+ @media only screen and (max-width:2560px) {
+	.section-intro {
+		max-width: 1200px;
+	}
+	.section-intro h1 {
+		font-size: 5rem;
+	}
+}
+ @media only screen and (max-width:2000px) {
+	.section-intro {
+		max-width: 800px;
+	}
+	.section-intro h1 {
+		font-size: 4rem;
+	}
+}
+ @media only screen and (max-width:768px) {
 	.section-intro {
 		max-width: 650px;
 	}
@@ -1095,7 +1119,7 @@ header .top-bar {
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
-	left: 0px;
+	left: 0;
 	top: 0;
 }
 header .logo {
@@ -1261,24 +1285,9 @@ header .logo a {
  * header styles
  * ---------------------------------------------------------------
  */
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:100px) {
 	header .top-bar {
-		left: 60px;
-	}
-}
-@media only screen and (max-width:768px) {
-	header .top-bar {
-		left: 50px;
-	}
-}
-@media only screen and (max-width:600px) {
-	header .top-bar {
-		left: 35px;
-	}
-}
-@media only screen and (max-width:400px) {
-	header .top-bar {
-		left: 25px;
+		left: 0px;
 	}
 }
 
@@ -1309,16 +1318,16 @@ header .logo a {
 	width: 100%;
 	height: 100%;
 	background: #111111;
-	opacity: .85;
+	opacity: .92;
 }
 
 .intro-content {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
-	-webkit-transform: translateY(-7rem);
-	-ms-transform: translateY(-7rem);
-	transform: translateY(-7rem);
+	-webkit-transform: translateY(-7.5rem);
+	-ms-transform: translateY(-7.5rem);
+	transform: translateY(-7.5rem);
 }
 .intro-content h1 {
 	color: #FFFFFF;
@@ -1393,42 +1402,31 @@ header .logo a {
 	left: 1.2rem;
 }
 
-.intro-social {
-	display: block;
-	position: absolute;
-	width: 100%;
-	left: 0;
-	bottom: 7.2rem;
-	font-size: 3.3rem;
-	margin: 0;
-	padding: 0;
-}
-.intro-social li {
-	display: inline-block;
-	margin: 0 20px;
-	padding: 0;
-}
-.intro-social li a, .intro-social li a:visited {
-	color: #FFFFFF;
-}
-.intro-social li a:hover, .intro-social li a:focus {
-	color: #cc005f;
-}
-
 /**
  * responsive:
  * Intro
  * ---------------------------------------------------------------
  */
-@media only screen and (max-width:1024px) {
+ @media only screen and (max-width:2056px) {
 	.intro-content h1 {
-		font-size: 7.6rem;
+		font-size: 8rem;
 	}
-	.intro-social {
-		font-size: 3rem;
+	.intro-content h5 {
+		font-size: 2.3rem;
 	}
-	.intro-social li {
-		margin: 0 15px;
+	.intro-content .intro-position {
+		font-size: 2rem;
+	}
+}
+ @media only screen and (max-width:2000px) {
+	.intro-content h1 {
+		font-size: 7rem;
+	}
+	.intro-content h5 {
+		font-size: 2.3rem;
+	}
+	.intro-content .intro-position {
+		font-size: 1.8rem;
 	}
 }
 @media only screen and (max-width:768px) {
@@ -1443,12 +1441,6 @@ header .logo a {
 	}
 	.intro-content .intro-position {
 		font-size: 1.3rem;
-	}
-	.intro-social {
-		font-size: 2.5rem;
-	}
-	.intro-social li {
-		margin: 0 10px;
 	}
 }
 @media only screen and (max-width:600px) {
@@ -1473,9 +1465,6 @@ header .logo a {
 	}
 	.intro-content .intro-position span::before, .intro-content .intro-position span::after {
 		display: none !important;
-	}
-	.intro-social {
-		font-size: 2.4rem;
 	}
 }
 
@@ -1503,9 +1492,9 @@ header .logo a {
 	height: 20rem;
 	width: 20rem;
 	border-radius: 100%;
-	margin: 0rem 5 0 50;
 	float: left;
-	margin-right: 20px;
+	margin-top: 1rem;
+	margin-right: 2rem;
 }
 .intro-info .lead {
 	text-align: left;
@@ -1556,7 +1545,7 @@ header .logo a {
 	text-align: center;
 }
 .button-section .button {
-	width: 250px;
+	width: auto;
 }
 .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
@@ -1567,7 +1556,7 @@ header .logo a {
  * about
  * -------------------------------------------------------------------
  */
-@media only screen and (max-width:1024px) {
+ @media only screen and (max-width:700px) {
 	.intro-info {
 		margin-right: 0;
 		margin-left: 0;
@@ -1869,6 +1858,9 @@ header .logo a {
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
 }
+#portfolio .section-intro {
+	margin-bottom: -15rem;
+}
 #modal-01 .h4 {
 	padding-top: 5rem;
 	text-align: center;
@@ -1994,6 +1986,7 @@ header .logo a {
 	background: #cc005f;
 	border: none;
 }
+
 @media only screen and (max-width:600px) {
 	.popup-modal {
 		width: auto;
