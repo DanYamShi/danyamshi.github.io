@@ -1858,9 +1858,6 @@ header .logo a {
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
 }
-#portfolio .section-intro {
-	margin-bottom: -15rem;
-}
 #modal-01 .h4 {
 	padding-top: 5rem;
 	text-align: center;
@@ -1895,10 +1892,16 @@ header .logo a {
 	#portfolio .folio-title {
 		font-size: 3.1rem;
 	}
+	#portfolio .section-intro {
+		margin-bottom: -15rem;
+	}
 }
 @media only screen and (max-width:768px) {
 	#portfolio .folio-title {
 		font-size: 2.5rem;
+	}
+	#portfolio .section-intro {
+		margin-bottom: -5rem;
 	}
 }
 @media only screen and (max-width:400px) {
